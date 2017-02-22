@@ -48,7 +48,6 @@ var Jobs = Ractive.extend({
 	}
 });
 
-
 var ractive = new Ractive({
 	el: '#app',
 	template: '#template',
@@ -83,9 +82,3 @@ var ractive = new Ractive({
 ractive.on('showAddress', function () {
 	ractive.toggle('showAddress');
 });
-
-/*ractive.push('jobs', {
-	company: 'Test Company',
-	title: 'Lead Developer',
-	years: 2
-});*/
